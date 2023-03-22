@@ -1,23 +1,19 @@
 
 j
-java:S3655¬"LCall "result.isPresent()" or "!result.isEmpty()" before accessing the value.(ÃÇûŞ8êşÄ¢ï0
+java:S3655¥"LCall "result.isPresent()" or "!result.isEmpty()" before accessing the value.(ÃÇûŞ8ŸíÒËğ0
 j
-java:S3655–"LCall "result.isPresent()" or "!result.isEmpty()" before accessing the value.(ÃÇûŞ8ëşÄ¢ï0
-£
-java:S1186V"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ùÍï”ùÿÿÿÿ8íşÄ¢ï0
+java:S3655"LCall "result.isPresent()" or "!result.isEmpty()" before accessing the value.(ÃÇûŞ8íÒËğ0
 x
-java:S1450"[Remove the "errorMessage" field and declare it as a local variable in the relevant methods.(ÊÃ‘æ8ğşÄ¢ï0
+java:S1450"[Remove the "errorMessage" field and declare it as a local variable in the relevant methods.(ÊÃ‘æ8¤íÒËğ0
 q
-java:S1450"TRemove the "scene" field and declare it as a local variable in the relevant methods.(‹ôÒ¡8ñşÄ¢ï0
+java:S1450"TRemove the "scene" field and declare it as a local variable in the relevant methods.(‹ôÒ¡8¤íÒËğ0
 v
-java:S1450"TRemove the "stage" field and declare it as a local variable in the relevant methods.(‹ğÑœıÿÿÿÿ8ñşÄ¢ï0
+java:S1450"TRemove the "stage" field and declare it as a local variable in the relevant methods.(‹ğÑœıÿÿÿÿ8¥íÒËğ0
 =
-java:S2129" Remove this "String" constructor(ÊÃ‘æ8÷şÄ¢ï0
-X	java:S125s"<This block of commented-out lines of code should be removed.( ÆüÖ8ŠÿÄ¢ï0
-[	java:S106—"9Replace this use of System.out or System.err by a logger.(ò¤áÿûÿÿÿÿ8©ÿÄ¢ï0
-[	java:S106š"9Replace this use of System.out or System.err by a logger.(½ğöÈıÿÿÿÿ8¹ÿÄ¢ï0
-[	java:S106­"9Replace this use of System.out or System.err by a logger.(ñ¢©·şÿÿÿÿ8½ÿÄ¢ï0
-V	java:S106°"9Replace this use of System.out or System.err by a logger.(¤Õï«8¿ÿÄ¢ï0
-[	java:S106Ü"9Replace this use of System.out or System.err by a logger.(Éâ…ºıÿÿÿÿ8ÙÿÄ¢ï0
-J
-java:S1068"-Remove this unused "productId" private field.(şáÀã8Äé¢ï0
+java:S2129" Remove this "String" constructor(ÊÃ‘æ8¬íÒËğ0
+X	java:S125l"<This block of commented-out lines of code should be removed.( ÆüÖ8¼íÒËğ0
+[	java:S106"9Replace this use of System.out or System.err by a logger.(ò¤áÿûÿÿÿÿ8ÇíÒËğ0
+[	java:S106“"9Replace this use of System.out or System.err by a logger.(½ğöÈıÿÿÿÿ8ÈíÒËğ0
+[	java:S106¦"9Replace this use of System.out or System.err by a logger.(ñ¢©·şÿÿÿÿ8ËíÒËğ0
+V	java:S106©"9Replace this use of System.out or System.err by a logger.(¤Õï«8ÌíÒËğ0
+[	java:S106Õ"9Replace this use of System.out or System.err by a logger.(Éâ…ºıÿÿÿÿ8ÓíÒËğ0

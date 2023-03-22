@@ -87,8 +87,6 @@ public class ModifyProductController implements Initializable, Controller {
     @FXML
     private TableColumn<Part, Double> deleteProductPriceCol;
 
-    public ModifyProductController(){}
-
     public void setService(InventoryService service){
         this.service=service;
         fillWithData();

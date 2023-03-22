@@ -24,21 +24,13 @@ public class AddPartController implements Initializable, Controller {
     private Parent scene;
     private boolean isOutsourced = true;
     private String errorMessage = new String();
-    private int partId;
-
     private InventoryService service;
-    
-    @FXML
-    private RadioButton inhouseRBtn;
 
     @FXML
     private RadioButton outsourcedRBtn;
     
     @FXML
     private Label addPartDynamicLbl;
-
-    @FXML
-    private TextField partIdTxt;
 
     @FXML
     private TextField nameTxt;
@@ -57,8 +49,6 @@ public class AddPartController implements Initializable, Controller {
 
     @FXML
     private TextField minTxt;
-
-    public AddPartController(){}
 
     @Override
     public void setService(InventoryService service){
