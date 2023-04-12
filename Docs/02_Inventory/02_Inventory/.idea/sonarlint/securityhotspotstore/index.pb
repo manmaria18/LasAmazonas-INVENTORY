@@ -1,8 +1,6 @@
 
 l
 <src/main/java/inventory/controller/ModifyPartController.java,2\b\2be59cab73aba69f05fe8c6ed684b45b480c876c
-o
-?src/main/java/inventory/controller/ModifyProductController.java,9\c\9cd8fd867bf6d05ab23fd072c876cc5fe298b358
 W
 'src/main/java/inventory/model/Part.java,f\d\fd1a9dc81ddf20578ac17075e7f75e2bd44285ad
 Q
