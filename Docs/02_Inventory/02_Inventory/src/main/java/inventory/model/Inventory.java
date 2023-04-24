@@ -46,8 +46,10 @@ public class Inventory {
             return null;
         boolean isFound = false;
         for(Product p: products) {
-            if(p.getName().contains(searchItem) || (p.getProductId()+"").equals(searchItem))
+            if(p.getName().contains(searchItem) || (p.getProductId()+"").equals(searchItem)){
+                System.out.println(p);
                 return p;
+            }
             isFound = true;
         }
         if(!isFound) {

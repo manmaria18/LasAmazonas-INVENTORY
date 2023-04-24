@@ -4,6 +4,8 @@ package inventory.model;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 
+import java.util.Objects;
+
 
 public class Product {
     
@@ -152,4 +154,6 @@ public class Product {
         return "P,"+this.productId+","+this.name+","+this.price+","+this.inStock+","+
                 this.min+","+this.max;
     }
+
+
 }
