@@ -35,6 +35,15 @@ class InventoryTestLab4 {
         Product product = new Product(1, "Test Product", 19.99, 5, 1, 10, null);
         inventory.addProduct(product);
         assertEquals(initialSize + 1, inventory.getProducts().size());
-        assertTrue(inventory.lookupProduct("Test Product") instanceof Product);
+        assertNotNull(inventory.lookupProduct("Test Product"));
+    }
+
+    @Test
+    public void testAddPart() {
+        int initialSize = inventory.getAllParts().size();
+        InhousePart part = new InhousePart(1, "Test Part", 19.99, 5, 1, 10, 1);
+        inventory.addPart(part);
+        assertEquals(initialSize + 1, inventory.getAllParts().size());
+        assertNotNull(inventory.lookupPart("Test Part"));
     }
 }
