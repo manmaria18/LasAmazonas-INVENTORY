@@ -17,7 +17,7 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.mockito.Mockito.mock;
 
-class InventoryServiceLab4Test {
+public class InventoryServiceLab4Test {
 
     @Mock
     public InventoryService service;

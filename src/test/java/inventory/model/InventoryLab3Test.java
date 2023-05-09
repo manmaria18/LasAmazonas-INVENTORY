@@ -6,7 +6,7 @@ import javafx.collections.ObservableList;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
-class InventoryLab3Test {
+public class InventoryLab3Test {
     private static Inventory inventory;
     private static InventoryRepository repo;
 

@@ -19,7 +19,7 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
-class InventoryServiceLab4IntegrationTest {
+public class InventoryServiceLab4IntegrationTest {
     @InjectMocks
     public InventoryService service;
     // Create a mock object of the InventoryRepository class
