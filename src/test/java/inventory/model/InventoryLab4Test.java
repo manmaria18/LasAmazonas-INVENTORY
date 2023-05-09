@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class InventoryLab4Test {
-    private Inventory inventory;
+    public Inventory inventory;
 
     @BeforeEach
     public void setUp() {
@@ -31,7 +31,6 @@ public class InventoryLab4Test {
 
     @Test
     public void testAddProduct() {
-        inventory = new Inventory();
         int initialSize = inventory.getProducts().size();
         Product product = new Product(1, "Test Product", 19.99, 5, 1, 10, null);
         inventory.addProduct(product);
