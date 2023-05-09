@@ -17,7 +17,6 @@ public class InventoryLab4Test {
 
     @Test
     public void testGetAllParts() {
-        inventory = new Inventory();
         ObservableList<Part> parts = inventory.getAllParts();
         assertNotNull(parts);
         assertEquals(0, parts.size());
@@ -41,7 +40,6 @@ public class InventoryLab4Test {
 
     @Test
     public void testAddPart() {
-        inventory = new Inventory();
         int initialSize = inventory.getAllParts().size();
         InhousePart part = new InhousePart(1, "Test Part", 19.99, 5, 1, 10, 1);
         inventory.addPart(part);
