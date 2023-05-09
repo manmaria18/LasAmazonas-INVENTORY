@@ -17,6 +17,7 @@ public class InventoryLab4Test {
 
     @Test
     public void testGetAllParts() {
+        inventory = new Inventory();
         ObservableList<Part> parts = inventory.getAllParts();
         assertNotNull(parts);
         assertEquals(0, parts.size());
