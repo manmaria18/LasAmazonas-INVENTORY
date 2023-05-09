@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: hustleMV.model.InventoryTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 0.064 s <<< FAILURE! - in hustleMV.model.InventoryTest
+testLookupProductNotFoundWithDefault  Time elapsed: 0.018 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make hustleMV.model.InventoryTest() accessible: module inventory does not "opens hustleMV.model" to unnamed module @1184ab05
+
+testLookupProductByNameExactMatch  Time elapsed: 0 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make hustleMV.model.InventoryTest() accessible: module inventory does not "opens hustleMV.model" to unnamed module @1184ab05
+
+testLookupProductByNamePartialMatch  Time elapsed: 0 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make hustleMV.model.InventoryTest() accessible: module inventory does not "opens hustleMV.model" to unnamed module @1184ab05
+
+testLookupProductNotFound  Time elapsed: 0 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make hustleMV.model.InventoryTest() accessible: module inventory does not "opens hustleMV.model" to unnamed module @1184ab05
+
+testLookupProductByNameNoMatch  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make hustleMV.model.InventoryTest() accessible: module inventory does not "opens hustleMV.model" to unnamed module @1184ab05
+
+testLookupProductInvalidId  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make hustleMV.model.InventoryTest() accessible: module inventory does not "opens hustleMV.model" to unnamed module @1184ab05
+

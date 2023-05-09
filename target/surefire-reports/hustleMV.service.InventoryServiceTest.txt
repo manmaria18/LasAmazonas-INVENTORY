@@ -1,0 +1,100 @@
+-------------------------------------------------------------------------------
+Test set: hustleMV.service.InventoryServiceTest
+-------------------------------------------------------------------------------
+Tests run: 32, Failures: 0, Errors: 32, Skipped: 0, Time elapsed: 0.196 s <<< FAILURE! - in hustleMV.service.InventoryServiceTest
+test_price_invalid{RepetitionInfo}[1]  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make hustleMV.service.InventoryServiceTest() accessible: module inventory does not "opens hustleMV.service" to unnamed module @1184ab05
+
+test_price_invalid{RepetitionInfo}[2]  Time elapsed: 0 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make hustleMV.service.InventoryServiceTest() accessible: module inventory does not "opens hustleMV.service" to unnamed module @1184ab05
+
+test_price_invalid{RepetitionInfo}[3]  Time elapsed: 0 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make hustleMV.service.InventoryServiceTest() accessible: module inventory does not "opens hustleMV.service" to unnamed module @1184ab05
+
+test_price_invalid{RepetitionInfo}[4]  Time elapsed: 0 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make hustleMV.service.InventoryServiceTest() accessible: module inventory does not "opens hustleMV.service" to unnamed module @1184ab05
+
+test_price_invalid{RepetitionInfo}[5]  Time elapsed: 0 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make hustleMV.service.InventoryServiceTest() accessible: module inventory does not "opens hustleMV.service" to unnamed module @1184ab05
+
+test_instock_valid_ecp1{int}[1]  Time elapsed: 0 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make hustleMV.service.InventoryServiceTest() accessible: module inventory does not "opens hustleMV.service" to unnamed module @1184ab05
+
+test_instock_valid_ecp2{int}[1]  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make hustleMV.service.InventoryServiceTest() accessible: module inventory does not "opens hustleMV.service" to unnamed module @1184ab05
+
+test_instock_invalid_2{int}[1]  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make hustleMV.service.InventoryServiceTest() accessible: module inventory does not "opens hustleMV.service" to unnamed module @1184ab05
+
+test_instock_invalid_2{int}[2]  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make hustleMV.service.InventoryServiceTest() accessible: module inventory does not "opens hustleMV.service" to unnamed module @1184ab05
+
+test_instock_invalid_4{int}[1]  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make hustleMV.service.InventoryServiceTest() accessible: module inventory does not "opens hustleMV.service" to unnamed module @1184ab05
+
+test_instock_valid_1{int}[1]  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make hustleMV.service.InventoryServiceTest() accessible: module inventory does not "opens hustleMV.service" to unnamed module @1184ab05
+
+test_instock_valid_1{int}[2]  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make hustleMV.service.InventoryServiceTest() accessible: module inventory does not "opens hustleMV.service" to unnamed module @1184ab05
+
+test_instock_valid_1{int}[3]  Time elapsed: 0 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make hustleMV.service.InventoryServiceTest() accessible: module inventory does not "opens hustleMV.service" to unnamed module @1184ab05
+
+test_instock_valid_1{int}[4]  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make hustleMV.service.InventoryServiceTest() accessible: module inventory does not "opens hustleMV.service" to unnamed module @1184ab05
+
+test_instock_valid_1{int}[5]  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make hustleMV.service.InventoryServiceTest() accessible: module inventory does not "opens hustleMV.service" to unnamed module @1184ab05
+
+test_instock_valid_3{int}[1]  Time elapsed: 0 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make hustleMV.service.InventoryServiceTest() accessible: module inventory does not "opens hustleMV.service" to unnamed module @1184ab05
+
+test_instock_valid_3{int}[2]  Time elapsed: 0 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make hustleMV.service.InventoryServiceTest() accessible: module inventory does not "opens hustleMV.service" to unnamed module @1184ab05
+
+test_instock_valid_3{int}[3]  Time elapsed: 0 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make hustleMV.service.InventoryServiceTest() accessible: module inventory does not "opens hustleMV.service" to unnamed module @1184ab05
+
+test_price_invalid2{RepetitionInfo}[1]  Time elapsed: 0.004 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make hustleMV.service.InventoryServiceTest() accessible: module inventory does not "opens hustleMV.service" to unnamed module @1184ab05
+
+test_price_invalid3  Time elapsed: 0.005 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make hustleMV.service.InventoryServiceTest() accessible: module inventory does not "opens hustleMV.service" to unnamed module @1184ab05
+
+test_instock_invalid_ecp1{int}[1]  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make hustleMV.service.InventoryServiceTest() accessible: module inventory does not "opens hustleMV.service" to unnamed module @1184ab05
+
+test_instock_invalid_ecp2{int}[1]  Time elapsed: 0.004 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make hustleMV.service.InventoryServiceTest() accessible: module inventory does not "opens hustleMV.service" to unnamed module @1184ab05
+
+test_price_valid2{RepetitionInfo}[1]  Time elapsed: 0.008 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make hustleMV.service.InventoryServiceTest() accessible: module inventory does not "opens hustleMV.service" to unnamed module @1184ab05
+
+test_price_valid2{RepetitionInfo}[2]  Time elapsed: 0 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make hustleMV.service.InventoryServiceTest() accessible: module inventory does not "opens hustleMV.service" to unnamed module @1184ab05
+
+test_price_valid2{RepetitionInfo}[3]  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make hustleMV.service.InventoryServiceTest() accessible: module inventory does not "opens hustleMV.service" to unnamed module @1184ab05
+
+test_price_valid2{RepetitionInfo}[4]  Time elapsed: 0 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make hustleMV.service.InventoryServiceTest() accessible: module inventory does not "opens hustleMV.service" to unnamed module @1184ab05
+
+test_price_valid2{RepetitionInfo}[5]  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make hustleMV.service.InventoryServiceTest() accessible: module inventory does not "opens hustleMV.service" to unnamed module @1184ab05
+
+test_price_valid{RepetitionInfo}[1]  Time elapsed: 0 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make hustleMV.service.InventoryServiceTest() accessible: module inventory does not "opens hustleMV.service" to unnamed module @1184ab05
+
+test_price_valid{RepetitionInfo}[2]  Time elapsed: 0 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make hustleMV.service.InventoryServiceTest() accessible: module inventory does not "opens hustleMV.service" to unnamed module @1184ab05
+
+test_price_valid{RepetitionInfo}[3]  Time elapsed: 0 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make hustleMV.service.InventoryServiceTest() accessible: module inventory does not "opens hustleMV.service" to unnamed module @1184ab05
+
+test_price_valid{RepetitionInfo}[4]  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make hustleMV.service.InventoryServiceTest() accessible: module inventory does not "opens hustleMV.service" to unnamed module @1184ab05
+
+test_price_valid{RepetitionInfo}[5]  Time elapsed: 0.007 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make hustleMV.service.InventoryServiceTest() accessible: module inventory does not "opens hustleMV.service" to unnamed module @1184ab05
+
