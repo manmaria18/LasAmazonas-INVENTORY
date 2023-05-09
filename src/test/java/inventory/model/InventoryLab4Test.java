@@ -41,6 +41,7 @@ public class InventoryLab4Test {
 
     @Test
     public void testAddPart() {
+        inventory = new Inventory();
         int initialSize = inventory.getAllParts().size();
         InhousePart part = new InhousePart(1, "Test Part", 19.99, 5, 1, 10, 1);
         inventory.addPart(part);
