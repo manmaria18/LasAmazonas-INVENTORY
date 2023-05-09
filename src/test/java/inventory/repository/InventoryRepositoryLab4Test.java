@@ -1,29 +1,22 @@
 package inventory.repository;
 
 import inventory.model.InhousePart;
-import inventory.model.Inventory;
 import inventory.model.Part;
 import inventory.model.Product;
-import inventory.repository.InventoryRepository;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
 import org.mockito.Mockito;
-import org.mockito.Mockito.*;
 import org.mockito.MockitoAnnotations;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
-import static org.mockito.Mockito.*;
 
 
-public class InventoryRepositoryTestLab4 {
+public class InventoryRepositoryLab4Test {
 
     // Create a mock object of the InventoryRepository class
     @Mock

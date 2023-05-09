@@ -6,11 +6,7 @@ import javafx.collections.ObservableList;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
-import java.util.ArrayList;
-
-import static org.junit.jupiter.api.Assertions.*;
-
-class InventoryTestLab3 {
+class InventoryLab3Test {
     private static Inventory inventory;
     private static InventoryRepository repo;
 

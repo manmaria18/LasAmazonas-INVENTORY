@@ -2,14 +2,10 @@ package inventory.service;
 
 import inventory.model.InhousePart;
 import inventory.model.Part;
-import inventory.model.Product;
-import inventory.repository.InventoryRepository;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 //import org.junit.Before;
 import org.junit.jupiter.api.*;
-import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.jupiter.params.provider.ValueSource;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
@@ -21,7 +17,7 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.mockito.Mockito.mock;
 
-class InventoryServiceTestLab4 {
+class InventoryServiceLab4Test {
 
     @Mock
     public InventoryService service;

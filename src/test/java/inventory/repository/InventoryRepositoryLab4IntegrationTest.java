@@ -3,7 +3,6 @@ package inventory.repository;
 import inventory.model.InhousePart;
 import inventory.model.Inventory;
 import inventory.model.Part;
-import inventory.model.Product;
 import inventory.service.InventoryService;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -14,14 +13,8 @@ import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.*;
-
-
-public class InventoryRepositoryTestLab4Integration {
+public class InventoryRepositoryLab4IntegrationTest {
 
     @InjectMocks
     private InventoryService inventoryService;

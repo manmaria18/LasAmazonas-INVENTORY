@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class InventoryTestLab4 {
+class InventoryLab4Test {
     private Inventory inventory;
 
     @BeforeEach
