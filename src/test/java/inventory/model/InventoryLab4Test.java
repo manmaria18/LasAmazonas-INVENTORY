@@ -11,6 +11,7 @@ public class InventoryLab4Test {
     public Inventory inventory;
 
     @BeforeEach
+    @Test
     public void setUp() {
         inventory = new Inventory();
     }
